@@ -1,7 +1,6 @@
 import axios from 'axios';
 import { errorCatch, getContentType } from './api.helper';
 import { getAccesToken, removeFromStorage } from '@/services/auth/auth.helper';
-import { config } from 'process';
 import AuthService from '@/services/auth/auth.services';
 
 export const instance = axios.create({
